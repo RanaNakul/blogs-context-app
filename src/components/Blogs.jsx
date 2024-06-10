@@ -8,7 +8,8 @@ const Blogs = ({topPadding}) => {
   const {posts,loading} = useContext(AppContext);
 
   return (
-    <div className={`dark:bg-[#202124] flex flex-col justify-center items-center gap-y-10 pt-[${topPadding}] pb-20 min-h-screen`}>
+    <div className={`dark:bg-[#202124] flex flex-col justify-center items-center gap-y-10 ${topPadding === "Home" ? 'pt-[85px]' : 'pt-[20px]'}
+      pb-20 min-h-screen`}>
         {
             loading ? (<Spinner/>) : 
                 posts.length === 0 ? (
