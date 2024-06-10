@@ -26,7 +26,7 @@ const CategoryPage = () => {
             </div>
         </div>
         
-        <Blogs topPadding = {"20px"}/>
+        <Blogs/>
         <Pagination/>
     </div>
   )
