@@ -25,7 +25,7 @@ const TagPage = () => {
                 </h2>
             </div>
         </div>
-        <Blogs topPadding = {"20px"}/>
+        <Blogs />
         <Pagination/>
     </div>
   )
