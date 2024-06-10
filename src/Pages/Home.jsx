@@ -9,7 +9,7 @@ const Home = () => {
     <div>
         <div className='dark:text-[#bdc1c6]'>
             <Header/>
-            <Blogs topPadding = {"85px"}/>
+            <Blogs topPadding = {"Home"}/>
             <Pagination/>
         </div>
     </div>
